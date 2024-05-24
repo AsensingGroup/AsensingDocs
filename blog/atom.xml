@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/blog</id>
+    <id>https://your-docusaurus-site.example.com/AsensingDocs/blog</id>
     <title>Asensing Docs Blog</title>
     <updated>2024-05-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/AsensingDocs/blog"/>
     <subtitle>Asensing Docs Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <icon>https://your-docusaurus-site.example.com/AsensingDocs/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/welcome</id>
-        <link href="https://your-docusaurus-site.example.com/blog/welcome"/>
+        <id>https://your-docusaurus-site.example.com/AsensingDocs/blog/welcome</id>
+        <link href="https://your-docusaurus-site.example.com/AsensingDocs/blog/welcome"/>
         <updated>2024-05-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Asensing Banner]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Asensing Banner" src="https://your-docusaurus-site.example.com/assets/images/Asensing-banner-f08a3211f4e356b3a1f27138350aae91.gif" width="1000" height="324" class="img_ev3q"></p>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Asensing Banner" src="https://your-docusaurus-site.example.com/AsensingDocs/assets/images/Asensing-banner-f08a3211f4e356b3a1f27138350aae91.gif" width="1000" height="324" class="img_ev3q"></p>
 <p>为了更好地服务客户，为客户提供更便捷的技术支持，我们近期构建并上线了 AsensingDocs 导远电子在线文档中心。</p>
 <p>在这里，我们会介绍导远电子的各类传感器产品介绍、使用指南、注意事项，并分享关于 SDK 二次开发、系统集成、应用案例等内容。</p>]]></content>
         <author>
