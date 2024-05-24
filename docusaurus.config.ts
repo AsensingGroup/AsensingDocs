@@ -69,7 +69,9 @@ const config: Config = {
           label: 'Tutorial',
           position: 'left',
           items: [
-            {to: '/docs/intro', label: 'LiDAR'},
+            {to: '/docs/imu/intro', label: 'IMU'},
+            {to: '/docs/gnss/intro', label: 'GNSS'},
+            {to: '/docs/lidar/intro', label: 'LiDAR'},
           ],
         },
         {to: '/blog', label: 'Blog', position: 'left'},
@@ -89,15 +91,15 @@ const config: Config = {
           items: [
             {
               label: 'LiDAR',
-              to: '/docs/intro',
+              to: '/docs/lidar/intro',
             },
             {
               label: 'IMU',
-              to: '/docs/intro',
+              to: '/docs/imu/intro',
             },
             {
               label: 'GNSS',
-              to: '/docs/intro',
+              to: '/docs/gnss/intro',
             },
           ],
         },
@@ -142,6 +144,12 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
