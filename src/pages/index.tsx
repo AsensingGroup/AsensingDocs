@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://www.asensing.com/product">
-            更多产品
+            to="/docs/intro">
+            开始阅读
           </Link>
         </div>
       </div>
