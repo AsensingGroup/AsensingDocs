@@ -86,25 +86,29 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'LiDAR',
+              to: '/docs/intro',
+            },
+            {
+              label: 'IMU',
+              to: '/docs/intro',
+            },
+            {
+              label: 'GNSS',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Social Media',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: '知乎',
+              href: 'https://www.zhihu.com/org/dao-yuan-dian-zi-83',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/asensing/',
             },
           ],
         },
@@ -117,12 +121,21 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/AsensingGroup',
+            },
+          ],
+        },
+        {
+          title: 'Company',
+          items: [
+            {
+              label: 'About Asensing',
+              to: 'https://www.asensing.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Guangzhou Asensing Technology Co., Ltd.`,
+      copyright: `Copyright © 2014-${new Date().getFullYear()} Guangzhou Asensing Technology Co., Ltd.`,
     },
     prism: {
       theme: prismThemes.github,

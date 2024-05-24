@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'IMU 单元',
+    Svg: require('@site/static/img/product-imu-module_200px.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        导远 IMU 系列模组为苛刻的应用场景提供可靠的惯性测量性能，
+        设备出厂前已经过航空级精密转台的温度和动态校准，确保在恶劣的环境下正常工作的可靠性。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'P-Box 总成',
+    Svg: require('@site/static/img/product-pbox_200px.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        高精度组合定位系统（P-Box），即使在隧道和地下停车场等卫星信号不佳的场景，
+        也能够提供低延迟位置、速度、姿态和授时的信息。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '激光雷达',
+    Svg: require('@site/static/img/product-lidar-a2_200px.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        高可靠性、高性能的车规级激光雷达（LiDAR），可应用于车载高阶辅助驾驶、物流机器人、
+        工业机器人、工程机械等领域，支持建图、定位、识别、避障等功能。
       </>
     ),
   },
