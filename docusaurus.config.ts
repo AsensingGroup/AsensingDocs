@@ -65,10 +65,12 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
+          type: 'dropdown',
           label: 'Tutorial',
+          position: 'left',
+          items: [
+            {to: '/docs/intro', label: 'LiDAR'},
+          ],
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
