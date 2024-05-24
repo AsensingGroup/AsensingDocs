@@ -114,6 +114,10 @@ const config: Config = {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/company/asensing/',
             },
+            {
+              label: '哔哩哔哩',
+              href: 'https://space.bilibili.com/702986792',
+            }
           ],
         },
         {
