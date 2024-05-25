@@ -36,7 +36,7 @@ AsensingViewer 提供 Windows 和 Linux 两个系统平台的软件安装包，�
 
 下载 AsensingViewer 安装包，如 AsensingViewer-V1.0.0-Windows-AMD64.exe，双击该 exe 文件，点击 Next 选择安装位置即可开始安装。
 
-![](images/AsensingView-Windows-Install-01.jpg)
+![](images/AsensingView-Windows-Install-01.jpg#center)
 
 另外，你也可以通过“软件超市”安装 AsensingViewer 应用程序。
 

@@ -8,6 +8,8 @@ sidebar_position: 1
 
 ## A2 激光雷达
 
+![](/img/product-lidar-a2.png#center)
+
 路测效果：
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=496059494&bvid=BV1GK411v72y&cid=1400251965&p=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
