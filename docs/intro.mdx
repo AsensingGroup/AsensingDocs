@@ -1,0 +1,31 @@
+---
+sidebar_position: 1
+---
+
+# 🤗 文档中心
+
+请选择您感兴趣的内容：
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '10px',
+      cursor: 'pointer',
+    }}
+    onClick={() => {
+      console.log(`You clicked the color ${color} with label ${children}`)
+    }}>
+    {children}
+  </span>
+);
+
+👉 <Highlight color="#D5DBDB">[LiDAR 产品](/AsensingDocs/docs/lidar/intro)</Highlight>
+
+👉 <Highlight color="#82E0AA">[IMU 产品](/AsensingDocs/docs/imu/intro)</Highlight>
+
+👉 <Highlight color="#F9E79F">[GNSS 产品](/AsensingDocs/docs/gnss/intro)</Highlight>
+
+👉 <Highlight color="#BB8FCE">应用案例</Highlight>
