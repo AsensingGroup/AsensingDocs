@@ -59,6 +59,10 @@ const config: Config = {
     ],
   ],
 
+  scripts: [
+    {src: 'https://hm.baidu.com/hm.js?7d64c602aa768be1724dc939646b2e0b', async: true},
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
