@@ -32,8 +32,9 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      // title={`Hello from ${siteConfig.title}`}
+      title="导远电子在线文档中心"
+      description="广州导远电子 IMU、GNSS、LiDAR 产品介绍、使用手册、应用教程，覆盖汽车智能驾驶、工业自动化、物流运输、机器人等领域">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
