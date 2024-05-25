@@ -122,6 +122,6 @@ LiDAR 配套一个点云展示上位机软件 AsensingView，可用于实时显�
 
 AsensingView 提供实时模式与回放模式两种数据可视化模式，可通过工具栏左侧按钮进行选择。其中，实时模式的使用场景是 LiDAR 通过网络直接与上位机连接，这种模式能够实时可视化 LiDAR 输出的数据。回放模式的使用场景是用户通过之前录制的 .pcap 数据文件，重新读取数据进行可视化，用于展示和分析 LiDAR 数据。
 
-关于上位机的详细使用说明，请参考《[AsensingView使用手册](/AsensingDocs/docs/lidar/AsensingViewer_User_Manual)》。
+关于上位机的详细使用说明，请参考《[AsensingView使用手册](/AsensingDocs/lidar/AsensingViewer_User_Manual)》。
 
 

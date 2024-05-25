@@ -35,6 +35,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -73,9 +74,9 @@ const config: Config = {
           label: 'Tutorial',
           position: 'left',
           items: [
-            {to: '/docs/imu/intro', label: 'IMU'},
-            {to: '/docs/gnss/intro', label: 'GNSS'},
-            {to: '/docs/lidar/intro', label: 'LiDAR'},
+            {to: '/imu/intro', label: 'IMU'},
+            {to: '/gnss/intro', label: 'GNSS'},
+            {to: '/lidar/intro', label: 'LiDAR'},
           ],
         },
         {to: '/blog', label: 'Blog', position: 'left'},
@@ -95,15 +96,15 @@ const config: Config = {
           items: [
             {
               label: 'LiDAR',
-              to: '/docs/lidar/intro',
+              to: '/lidar/intro',
             },
             {
               label: 'IMU',
-              to: '/docs/imu/intro',
+              to: '/imu/intro',
             },
             {
               label: 'GNSS',
-              to: '/docs/gnss/intro',
+              to: '/gnss/intro',
             },
           ],
         },
