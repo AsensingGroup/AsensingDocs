@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 slug: /asensing-lidar-ros-sdk-user-guide
 sidebar_label: LiDAR ROS SDK 使用指南
 ---
