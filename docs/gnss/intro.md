@@ -26,7 +26,7 @@ sidebar_position: 1
 
 ### INS570D P-Box
 
-![](/img/product-pbox.png#center-400)
+![](/img/product-pbox.png#center-300)
 
 ### INS5711
 
