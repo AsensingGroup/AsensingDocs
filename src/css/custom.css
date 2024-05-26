@@ -55,3 +55,39 @@ img[src*='#center'] {
   display: block;
   margin: auto;
 }
+
+img[src*='#center-600'] {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+img[src*='#center-500'] {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+
+img[src*='#center-400'] {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
+img[src*='#center-300'] {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+img[src*='#center-200'] {
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+img[src*='#center-100'] {
+  display: block;
+  margin: auto;
+  width: 100px;
+}

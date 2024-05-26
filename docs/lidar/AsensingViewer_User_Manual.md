@@ -10,7 +10,7 @@ sidebar_position: 3
 
 AsensingViewer 是导远电子提供的一款 LiDAR 点云显示软件，支持导远多款激光雷达（如 A2）点云数据的实时捕获、数据可视化、数据过滤处理。同时，AsensingViewer 可以将实时流录制为 .pcap 格式文件，并播放存储在 .pcap 文件中的预先录制的点云数据。
 
-![](./images/AsensingViewer_Main_UI_CN.png)
+![](./images/AsensingViewer_Main_UI_CN.png#center)
 
 本手册的后续内容，将假设读者已经对导远电子的激光雷达传感器（A0）有一定的了解。
 
@@ -66,7 +66,7 @@ AsensingViewer 作为一个点云数据展示软件，最主要的功能就是�
 
 主视图在交互式查看器中显示 3D 点云（point-cloud），如下图所示。
 
-![](images/AsensingView_Function_Bar.png)
+![](images/AsensingView_Function_Bar.png#center)
 
 工具栏的简单介绍如下：
 
@@ -90,7 +90,7 @@ AsensingViewer 作为一个点云数据展示软件，最主要的功能就是�
 
 电子表格视图展示主3D视图中的数据，它能够实时更新数据，并以电子表格的形式显示。默认情况下该窗口是隐藏的，但可以通过单击工具栏中的 *Spreadsheet* 按钮（或通过菜单栏 Views -> SpreadSheet）来激活。
 
-![](images/NeptuneViewer-Spreadsheet.png)
+![](images/NeptuneViewer-Spreadsheet.png#center)
 
 电子表格视图上方的选项从左到右分别是：要显示的数据、要显示的属性、精度、切换科学表示、仅显示选定点、切换列可见性、切换单元格连接可见性、导出电子表格。
 
@@ -108,17 +108,17 @@ AsensingViewer 有两种工作模式：实时模式与回放模式。
 
 将 LiDAR 连接到 AsensingViewer 运行的计算机网络中，单击工具栏中的 *Sensor Stream* 按钮，或通过菜单栏 File -> Open -> SensorStream。
 
-![](images/NeptuneViewer-sensor-stream.png)
+![](images/NeptuneViewer-sensor-stream.png#center)
 
 此时将会打开 *Sensor Configuration* 传感器数据流和配置窗口，在这里你需要选择对应的解析器和标定文件（A0 暂时使用 No-Correction-5）。如果勾选高级配置（advanced configuration）复选框，你还可以修改端口号等网络参数。
 
-![](images/NeptuneViewer-Sensor-Configuration.png)
+![](images/NeptuneViewer-Sensor-Configuration.png#center)
 
 点击 OK 开始接收并显示点云数据。
 
 在实时流运行时，你可以将数据流暂停到特定帧或将流录制到 .pcap 文件中。
 
-![](./images/NeptuneViewer-record-and-play.png)
+![](./images/NeptuneViewer-record-and-play.png#center)
 
 注：绿框处为数据流暂停按钮，红框处为数据流录制按钮。
 
@@ -126,11 +126,11 @@ AsensingViewer 有两种工作模式：实时模式与回放模式。
 
 回放模式适用于离线分析，也就是说，不需要将 LiDAR 连接到 AsensingViewer 运行的计算机网络中。单击工具栏中的 *Open Data File* 按钮（或通过菜单栏 File -> Open -> Capture File）。
 
-![](images/NeptuneViewer-open-data-file.png)
+![](images/NeptuneViewer-open-data-file.png#center)
 
 选择之前所保存的.pcap文件，点击 Ok。
 
-![](images/NeptuneViewer_Open_LiDAR_File.png)
+![](images/NeptuneViewer_Open_LiDAR_File.png#center)
 
 此时会打开 *Sensor Configuration* 传感器数据流和配置窗口，配置解析器等信息后点击 OK 即可。
 
@@ -176,7 +176,6 @@ python控制器：
 
 打开错误控制器。
 
-（用不出功能）
 
 #### 2.3.2 播放控件
 
@@ -308,11 +307,11 @@ Figure 11:视点界面
 
 ### 2.4 导出数据
 
-依次点击File->Save as选择pcap、csv、pcd、ply、las等存储结构。
+依次点击 File->Save as 选择 pcap、csv、pcd、ply、las 等存储格式。
 
 Figure 12: 选择保存帧数
 
-选择保存 当前帧/所有帧/自定义帧数，点击ok。
+选择保存“当前帧/所有帧/自定义帧数”，点击 Ok。
 
 
 ## 3. 常见问题

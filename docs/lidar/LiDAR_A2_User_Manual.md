@@ -110,7 +110,7 @@ LiDAR 点云数据包使用 UDP 协议传输，默认的目标端口是 51180。
 
 LiDAR 内置了 Web 服务器，通过网络浏览器打开 `http://192.168.101.101` 即可访问 Web 配置界面。
 
-![](./images/WebServer-UI.png)
+![](./images/WebServer-UI.png#center)
 
 
 
@@ -118,7 +118,7 @@ LiDAR 内置了 Web 服务器，通过网络浏览器打开 `http://192.168.101.
 
 LiDAR 配套一个点云展示上位机软件 AsensingView，可用于实时显示 3D 点云数据，同时可以录制、回放、导出点云数据，帮助分析或处理来自 LiDAR 的点云数据。
 
-![](./images/AsensingViewer_Main_UI_CN.png)
+![](./images/AsensingViewer_Main_UI_CN.png#center)
 
 AsensingView 提供实时模式与回放模式两种数据可视化模式，可通过工具栏左侧按钮进行选择。其中，实时模式的使用场景是 LiDAR 通过网络直接与上位机连接，这种模式能够实时可视化 LiDAR 输出的数据。回放模式的使用场景是用户通过之前录制的 .pcap 数据文件，重新读取数据进行可视化，用于展示和分析 LiDAR 数据。
 

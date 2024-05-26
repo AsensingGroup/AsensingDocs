@@ -8,7 +8,7 @@ sidebar_position: 1
 
 导远 A2 LiDAR 是一款车规级半固态激光雷达，采用一维转镜方案，具有体积小、可定制功能、高性价比等特点。该产品专为 ADAS 和自动驾驶、机器人、工程机械等应用而设计，计划在2024年内大规模生产和发货。
 
-![](/img/product-lidar-a2.png#center)
+![](/img/product-lidar-a2.png#center-400)
 
 基本参数：
 
@@ -40,7 +40,7 @@ sidebar_position: 1
 
 功耗低、寿命长，在 -40℃~130℃ 的温度范围表现始终如一；已达车规级 AEC-Q100 标准，稳定可靠，赋能激光雷达厂商，需要进行 3D 扫描的行业（例如工业机器人），和从事相关技术产品研发的研究机构和大专院校等。
 
-![](/img/product-mems-mirror.png#center)
+![](/img/product-mems-mirror.png#center-400)
 
 基本参数：
 
